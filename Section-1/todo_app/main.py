@@ -11,6 +11,3 @@ for i in range(3):
 print (mytodos)
 
 
-user_title_prompt = ("Enter the Title: ")
-user_title =  input(user_title_prompt)
-print ("Title Length is : ", len(user_title))

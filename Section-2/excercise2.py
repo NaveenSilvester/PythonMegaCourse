@@ -7,4 +7,4 @@ while True:
 greeting = "hello"
 print(greeting.upper ())
 
-print(dir(dir))
+

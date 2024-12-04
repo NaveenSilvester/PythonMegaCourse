@@ -1,4 +1,16 @@
-
+'''
+#############################################################################################
+This program makes add, edits, removes(completes) or edits todos records for the user. The
+program writes and manuplulates the records by registering it in a file named "todos.txt".
+The menu has the following options:
+1. add
+2. show
+3. edit
+4. complete
+5. exit
+Play with the app "todos.py"
+#############################################################################################
+'''
 while True:
     user_action = input("Type add, show, edit, complete or exit : ")
     user_action = user_action.strip()

@@ -1,0 +1,15 @@
+1. Install pyinstaller
+	pip install pyinstaller
+2. Set the path of the pyinstaller to "C:\Users\silve\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\Scripts"
+	Here is how you do it in Windows:
+	a. type edit environmet variables in the windows menu
+	b. Select the Edit Environment variable option
+	c. Click on the Environment Variable button
+	d. Select "Path" on the variables and then click new 
+	e. Add this new path "C:\Users\silve\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\Scripts"
+
+3. Then go to the folder where the python script exists and then run the command
+	pyinstaller --
+	pyinstaller --onefile --windowed --clear gui.py
+	Note: gui.py is my script which I neeed to convert to executable
+4. Once the program is run and completed, the executable will be inside the folder named "dist"

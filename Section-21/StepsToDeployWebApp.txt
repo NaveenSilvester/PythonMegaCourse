@@ -1,0 +1,7 @@
+1. Create a new folder and place all the required files (Example: TodosApp folder has 3 files: web.py, todos.txt, function.py)
+2. Navigate to the new created folder/directory "TodosApp" and then run the pip freeze > requirements.txt
+3. Start the app from command line of computer streamlit run .\web.py
+4. Once the app loads on to the localhost, on the right corner of the page you will see Deploy
+5. You will be askd to share the git lab path or url and then it will deploy the app. 
+6. The app will load on the public url https://todosapp-8qk7vhhfzrw9kdbabmrwmw.streamlit.app/
+7. To See your apps you need to login to: https://share.streamlit.io/
